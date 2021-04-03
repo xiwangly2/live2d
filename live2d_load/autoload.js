@@ -33,7 +33,7 @@ Promise.all([
 ]).then(() => {
     initWidget({
         waifuPath: tips_path + "waifu-tips.min.json",
-        apiPath: "https://xiwangly.top/api/",
+        apiPath: "https://xiwangly.top/live2d_api/",
         //cdnPath: "https://cdn.jsdelivr.net/gh/xiwangly2/live2d@1.0.8/live2d_api/"
     });
 });
